@@ -38,7 +38,7 @@ public class DBConnectionTest {
 		 try {
 			
 			conn = DriverManager.getConnection("jdbc:mysql://172.29.10.61:3306/email2case", "email2case", "@ma!l2c@se");
-			System.out.println("Connection..."+conn);
+			System.out.println("Connection..is."+conn);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
